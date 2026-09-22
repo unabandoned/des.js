@@ -1,14 +1,15 @@
 {
-  "name": "des.js",
+  "name": "@unabandoned/des.js",
   "version": "1.1.0",
   "description": "DES implementation",
   "main": "lib/des.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--openssl-legacy-provider mocha --reporter=spec test/*-test.js"
+    "test": "NODE_OPTIONS=--openssl-legacy-provider mocha --reporter=spec test/*-test.js",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/indutny/des.js.git"
+    "url": "git+https://github.com/unabandoned/des.js.git"
   },
   "keywords": [
     "DES",
@@ -19,15 +20,25 @@
   "author": "Fedor Indutny <fedor@indutny.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/indutny/des.js/issues"
+    "url": "https://github.com/unabandoned/des.js/issues"
   },
-  "homepage": "https://github.com/indutny/des.js#readme",
+  "homepage": "https://github.com/unabandoned/des.js#readme",
   "devDependencies": {
-    "jshint": "^2.8.0",
+    "@commitlint/cli": "21.2.2",
+    "@commitlint/config-conventional": "21.2.2",
     "mocha": "^10.2.0"
   },
   "dependencies": {
-    "inherits": "^2.0.1",
-    "minimalistic-assert": "^1.0.0"
-  }
+    "inherits": "^2.0.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "files": [
+    "lib"
+  ]
 }

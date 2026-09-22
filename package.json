@@ -4,7 +4,7 @@
   "description": "DES implementation",
   "main": "lib/des.js",
   "scripts": {
-    "test": "NODE_OPTIONS=--openssl-legacy-provider mocha --reporter=spec test/*-test.js",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider node --test test/*-test.js",
     "prepare": "git config core.hooksPath .githooks || true"
   },
   "repository": {
@@ -25,8 +25,7 @@
   "homepage": "https://github.com/unabandoned/des.js#readme",
   "devDependencies": {
     "@commitlint/cli": "21.2.2",
-    "@commitlint/config-conventional": "21.2.2",
-    "mocha": "12.0.2"
+    "@commitlint/config-conventional": "21.2.2"
   },
   "dependencies": {
     "inherits": "^2.0.1"

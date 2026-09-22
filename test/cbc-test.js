@@ -1,6 +1,7 @@
 'use strict';
 
-var assert = require('assert');
+var { describe, it } = require('node:test');
+var assert = require('node:assert');
 var crypto = require('crypto');
 var Buffer = require('buffer').Buffer;
 

@@ -1,6 +1,7 @@
 'use strict';
 
-var assert = require('assert');
+var { describe, it } = require('node:test');
+var assert = require('node:assert');
 
 var des = require('../');
 var utils = des.utils;

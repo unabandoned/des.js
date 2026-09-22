@@ -1,16 +1,3 @@
-# DES.js
-
-> **This is a maintained fork of [indutny/des.js][upstream], published as
-> [`@unabandoned/des.js`][pkg].** Upstream's last release was May 2023. The
-> implementation is unchanged; the fork exists to keep it and its dependency
-> tree current. See [.unabandoned.yml](.unabandoned.yml).
-
-[upstream]: https://github.com/indutny/des.js
-[pkg]: https://www.npmjs.com/package/@unabandoned/des.js
-
-
-## LICENSE
-
 This software is licensed under the MIT License.
 
 Copyright Fedor Indutny, 2015.

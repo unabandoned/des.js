@@ -1,0 +1,26 @@
+schema: 1
+
+package: "@unabandoned/des.js"
+
+upstream:
+  repo: indutny/des.js
+  reason: "unmaintained upstream — last release May 2023, and the only abandoned dependency left anywhere in the org"
+
+summary: >-
+  DES and Triple DES in JavaScript, with ECB and CBC modes.
+
+why-forked: >-
+  @unabandoned/crypto-browserify reaches it through its vendored browserify-des,
+  so it ships in any bundle whose source calls crypto.createCipheriv with a DES
+  mode. Forked so Renovate keeps it and its tree current for the consumers that
+  pull it in transitively.
+
+used-by:
+  - consumer: "@unabandoned/crypto-browserify"
+    purpose: >-
+      backs the des-ecb, des-cbc, des-ede, des-ede-cbc, des-ede3 and
+      des-ede3-cbc ciphers exposed by createCipheriv
+
+status: active
+
+tags: [crypto, des, 3des, cipher, browserify]

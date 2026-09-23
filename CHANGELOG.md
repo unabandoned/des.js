@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/unabandoned/des.js/compare/des.js-v1.2.1...des.js-v1.2.2) (2026-09-23)
+
+
+### Dependencies & maintenance
+
+* **deps:** update commitlint monorepo to v21.2.3 ([#8](https://github.com/unabandoned/des.js/issues/8)) ([b83c52f](https://github.com/unabandoned/des.js/commit/b83c52f853d7b466a48bcefb5823d7acfda9eea7))
+
 ## [1.2.1](https://github.com/unabandoned/des.js/compare/des.js-v1.2.0...des.js-v1.2.1) (2026-09-22)
 
 

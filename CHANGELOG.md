@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/unabandoned/des.js/compare/des.js-v1.2.1...des.js-v1.2.2) (2026-09-23)
+
+
+### Bug Fixes
+
+* stop dev-only commits from cutting releases ([#10](https://github.com/unabandoned/des.js/issues/10)) ([f992e9a](https://github.com/unabandoned/des.js/commit/f992e9af448eb1eb20829b3ab4667ebe8c221138))
+
 ## [1.2.1](https://github.com/unabandoned/des.js/compare/des.js-v1.2.0...des.js-v1.2.1) (2026-09-22)
 
 

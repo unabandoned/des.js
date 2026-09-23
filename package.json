@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/unabandoned/des.js#readme",
   "devDependencies": {
-    "@commitlint/cli": "21.2.2",
-    "@commitlint/config-conventional": "21.2.2"
+    "@commitlint/cli": "21.2.3",
+    "@commitlint/config-conventional": "21.2.3"
   },
   "dependencies": {
     "inherits": "^2.0.1"

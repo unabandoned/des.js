@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/unabandoned/des.js/compare/des.js-v1.2.2...des.js-v1.2.3) (2026-10-09)
+
+
+### Dependencies & maintenance
+
+* drop the inherits dependency for an in-tree helper ([#16](https://github.com/unabandoned/des.js/issues/16)) ([3607c67](https://github.com/unabandoned/des.js/commit/3607c67857b34ae5e64e8e46e6860a6b93995766))
+
 ## [1.2.2](https://github.com/unabandoned/des.js/compare/des.js-v1.2.1...des.js-v1.2.2) (2026-09-23)
 
 
